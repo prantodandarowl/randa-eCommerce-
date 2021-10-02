@@ -1,0 +1,22 @@
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color: #fceae8;
+   
+}
+
+.carousel-item{
+    padding: 20px 40px;
+
+}
+
+.price{
+    color: tomato;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: tomato !important;
+    border-radius: 5px;
+}
