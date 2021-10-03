@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Randa-eCommerce</title>
 </head>
@@ -15,25 +15,25 @@
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="panda-commerce\logo.png" alt="">
+      <a class="navbar-brand" href="#Home">
+        <img src="panda-commerce\logo.png" alt="" >
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
           <a class="nav-link" href="#Shoes">Shoes</a>
-          <a class="nav-link" href="#Backpack">Backpack</a>
-          <a class="nav-link" href="#contact us">contact us</a>
+          <a class="nav-link" href="#Bagpack">Bagpack</a>
+          <a class="nav-link" href="#contact-us">contact us</a>
         </div>
       </div>
     </div>
   </nav>
 
 </div>
-<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------carousel section------------------------------------------------------------------------ -->
 
   <div class="container ">
 
@@ -51,7 +51,7 @@
                This is the best Headphones in the world for peoplr who have no work can spent time on it 
              </p>
              <h1 class="price">$1420</h1>
-             <button class="btn btn-primary" type="button">Button</button>
+             <button class="btn btn-primary" type="button">Buy</button>
 
             </div>
             <div class="col-md-5">
@@ -71,7 +71,7 @@
                This is the best Tv in the world for peoplr who have no work can spent time on it 
              </p>
              <h1 class="price">$1020</h1>
-             <button class="btn btn-primary" type="button">Button</button>
+             <button class="btn btn-primary" type="button">Buy</button>
             </div>
             <div class="col-md-5">
               <img src="panda-commerce\banner-images\tv.png" class="d-block w-100" alt="...">
@@ -90,7 +90,7 @@
                This is the best consol in the world for peoplr who have no work can spent time on it 
              </p>
              <h1 class="price">$420</h1>
-             <button class="btn btn-primary " type="button">Button</button>
+             <button class="btn btn-primary " type="button">Buy</button>
             </div>
             <div class="col-md-5">
               <img src="panda-commerce\banner-images\xbox.png" class="d-block w-100" alt="...">
@@ -111,7 +111,7 @@
 
   </div>
 
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!------------------------------------------catagories section------------------------------------------------------------ -->
 
 
 
@@ -129,7 +129,7 @@
           <img src="panda-commerce\categories\bag.png" alt="">
         </div>
     </div>
-    <div class="col-md-4 d-flex justify-content-around align-items-center cat-bg3"> 
+    <div class="col-md-4 "> 
       <div class="d-flex justify-content-around align-items-center cat-bg3">
         <h1>Shoes</h1>
         <img src="panda-commerce\categories\shoes.png" alt=""> 
@@ -139,6 +139,117 @@
 </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!---------------------------Cards section-------------------------------------------------- -->
+
+
+<!-- shoes -->
+
+<!-- first take container then divide it by col-md-4 in that just  div them and take the card code from w3 school -->
+
+<div class="container shoes" id="Shoes">
+  <h3 class="shoes-tag">Shoes</h3>
+  <div class="row">
+    <div class="col-md-4 ">
+        
+          <div class="cardd">
+            <img src="panda-commerce\shoes\shoe-1.png" alt="Denim Jeans" style="width:100%">
+            <h1>Nike Flock</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans..</p>
+            <p><button>Buy Now </button></p>
+          </div>
+        
+    </div>
+    <div class="col-md-4">
+      
+        <div class="cardd">
+          <img src="panda-commerce\shoes\shoe-3.png" alt="Denim Jeans" style="width:100%">
+          <h1>Adidas</h1>
+          <p class="price">$19.99</p>
+          <p>Some text about the jeans..</p>
+          <p><button>Buy Now </button></p>
+        </div>
+      
+    </div>
+    <div class="col-md-4">
+      
+        <div class="cardd">
+          <img src="panda-commerce\shoes\shoe-2.png" alt="Denim Jeans" style="width:100%">
+          <h1>Snickars</h1>
+          <p class="price">$19.99</p>
+          <p>Some text about the jeans..</p>
+          <p><button>Buy Now </button></p>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Bages -->
+
+<div class="container bages" id="Bagpack">
+  <h3 class="bag-tag">Bagpack</h3>
+  <div class="row">
+    <div class="col-md-4 ">
+        
+          <div class="cardd">
+            <img src="panda-commerce\bags\bag-1.png" alt="Denim Jeans" style="width:100%">
+            <h1>Gucci Flock</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans..</p>
+            <p><button>Buy Now </button></p>
+          </div>
+        
+    </div>
+    <div class="col-md-4">
+      
+        <div class="cardd">
+          <img src="panda-commerce\bags\bag-2.png" alt="Denim Jeans" style="width:100%">
+          <h1>Suprime</h1>
+          <p class="price">$19.99</p>
+          <p>Some text about the jeans..</p>
+          <p><button>Buy Now </button></p>
+        </div>
+      
+    </div>
+    <div class="col-md-4">
+      
+        <div class="cardd">
+          <img src="panda-commerce\bags\bag-3.png" alt="Denim Jeans" style="width:100%">
+          <h1>Basundhara</h1>
+          <p class="price">$19.99</p>
+          <p>Some text about the jeans..</p>
+          <p><button>Buy Now </button></p>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- emial -->
+
+<div class="container email orange-bg" id="contact-us">
+    <div >
+      <h1 class="d-flex justify-content-center cc ">Let's keep in touch</h1>
+      <p class="d-flex justify-content-center ">Get update on special discout</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <input type="text">
+      <button class="btn btn-primary bbn" type="button">Submit</button>
+      
+    </div>
+  
+
+</div>
+
+
+
+<footer>
+  <p class="d-flex justify-content-center">All right reserve by @PK</p>
+</footer>
+
+
+<!-- Bootstrap 5 Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -42,4 +42,57 @@
     color: rgb(255, 255, 255);
 }
 
+.shoes-tag{
 
+    margin-bottom: 25px;
+    
+}
+
+.bag-tag{
+    margin-bottom: 25px;
+
+}
+
+/*  */
+
+.cardd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cardd button {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(207, 119, 119);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cardd button:hover {
+    opacity: 0.7;
+  }
+
+ .email{
+    padding-bottom: 150px;
+ }
+
+ .bbn{
+     margin-left: 25px;
+ }
+
+ .cc{
+     padding-top: 100px;
+ }
